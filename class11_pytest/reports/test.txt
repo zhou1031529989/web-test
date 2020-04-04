@@ -1,0 +1,6 @@
+s test_login.py::TestLogin::test_login_0_failed
+ Skipped: no variables file
+s test_login.py::TestLogin::test_login_1_failed
+ Skipped: no variables file
+s test_login.py::TestLogin::test_login_2_success
+ Skipped: no variables file

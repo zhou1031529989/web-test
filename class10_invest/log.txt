@@ -1,0 +1,20 @@
+============================= test session starts =============================
+platform win32 -- Python 3.8.2, pytest-5.4.1, py-1.8.1, pluggy-0.13.1 -- c:\users\zhouchao\pycharmprojects\python13-web\venv\scripts\python.exe
+cachedir: .pytest_cache
+metadata: {'Python': '3.8.2', 'Platform': 'Windows-10-10.0.17134-SP0', 'Packages': {'pytest': '5.4.1', 'py': '1.8.1', 'pluggy': '0.13.1'}, 'Plugins': {'html': '2.1.1', 'metadata': '1.8.0', 'reportlog': '0.1.0', 'variables': '1.9.0'}, 'JAVA_HOME': 'D:\\Java\\jdk1.8.0_112'}
+rootdir: C:\Users\zhouchao\PycharmProjects\python13-web\class10_invest, inifile: pytest.ini
+plugins: html-2.1.1, metadata-1.8.0, reportlog-0.1.0, variables-1.9.0
+collecting ... collected 5 items
+
+test_login.py::TestLogin::test_login_0_failed_1 *****************开始执行测试用例*******************
+PASSED
+test_login.py::TestLogin::test_login_1_failed_1 *****************开始执行测试用例*******************
+PASSED
+test_login.py::TestLogin::test_login_1_failed_2 *****************开始执行测试用例*******************
+PASSED
+test_login.py::TestLogin::test_login_1_failed_3 *****************开始执行测试用例*******************
+PASSED
+test_login.py::TestLogin::test_login_2_success *****************开始执行测试用例*******************
+PASSED
+
+======================== 5 passed in 80.86s (0:01:20) =========================

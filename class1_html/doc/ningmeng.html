@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>柠檬搜索</title>
+</head>
+<body>
+    <!------Heading------>
+    <!--<h1 id="title" onclick="blue(this)">大柠檬</h1>--><!------onclick监听元素h1的点击事件，点击后变成蓝色，this代表document对象------>
+    <h1 id="title" onmouseup="blue(this)" onmouseover="red(this)">大柠檬</h1>
+    <!------段落paragraph------>
+    <p>欢迎收看新世纪布袋戏</p>
+    <!------换行------>
+        <br>
+    <!------容器------>
+    <div>
+        <div>
+            <p>
+                创世之初，人神共处<br>
+                天地混沌，群雄争霸<span>靡不有初鲜克有终</span>      <!------不换行容器------>
+            </p>
+        </div>
+    </div>
+    <p>
+        葬阅 千古一帝的爱恨痴愁 <br>
+     <!------线------>
+        <hr>
+        纪雪 神仙眷侣的苦难之旅
+    </p>
+    <!------无序列表------>
+    <ul>
+        <li>葬魂皇
+            <!------嵌套列表------>
+            <ul>
+                <li>出生：天魁星降世</li>
+                <li>所获：寰尘布武之皇</li>
+                <li>所爱：阅天机</li>
+                <li>兵器：噬血神枪</li>
+            </ul>
+        </li>
+        <li>阅天机
+            <ul>
+                <li>品阶：沉域第一智者</li>
+                <li>所属：寰尘布武第一谋士</li>
+                <li>所爱：葬魂皇</li>
+                <li>兵器：术法、智谋</li>
+            </ul>
+        </li>
+        <li>纪无双</li>
+        <li>白儒飘雪</li>
+    </ul>
+    <!------有序列表------>
+    <ol>
+        <li>炎凰煞凤</li>
+        <li>月蕊净儿</li>
+        <li>
+            南风寄羽
+            <ul>
+                <li>出生：中原第一大神秘</li>
+                <li>所获：情花谷谷主</li>
+                <li>所爱：莫涉心</li>
+            </ul>
+        </li>
+        <li>
+            莫涉心
+            <ul>
+                <li>出生：侠女</li>
+                <li>所爱：南风寄羽</li>
+            </ul>
+        </li>
+    </ol>
+    <!------表格------>
+    <table>
+        <tr>    <!------行------>
+            <th>姓名</th>   <!------表头------>
+            <th>性别</th>
+            <th>年龄</th>
+        </tr>
+            <tr>
+            <td>裘不悔</td>   <!------列------>
+            <td>男</td>
+            <td>24</td>
+        </tr>
+    </table>
+    <!------线------>
+    <hr>
+    <!------超文本------>
+    <!------<a href="http://www.zhihu.com" target="_blank">  target新开一个标签页    ------>
+    <!------锚点------>
+    <a href="#title">  <!------锚到h1------>
+        点我呀
+    </a>
+    <!------图片------>
+    <!---<img width="100px",height="200px",src="https://img02.sogoucdn.com/net/a/04/link?url=https%3A%2F%2Fi03piccdn.sogoucdn.com%2Ff1766ca0055380e4&appid=122"/>--->
+    <!------图片具有超链接功能------>
+    <a href="http://www.zhihu.com">
+            <img width="100px",height="200px",src="https://img02.sogoucdn.com/net/a/04/link?url=https%3A%2F%2Fi03piccdn.sogoucdn.com%2Ff1766ca0055380e4&appid=122"/>
+    </a>
+    <!------框里面加网页------>
+    <iframe src="http://www.baidu.com"></iframe>
+    <form action="http://127.0.0.1:4556" method="get">   <!------提交表单------>
+        <div> <!------可自动换行------>
+            <input type="text" name="name" placeholder="请输入要搜索的内容" readonly>柠檬一下  <!------color色盘，默认type="text",name赋予标题，提交才会成功------>
+        </div>
+        <div>性别：
+            <input type="radio" name="sex" value="男" disabled>男    <!------单选框,name给题目命名后才有意义，value单选复选框需要赋予值------>
+            <input type="radio" name="sex" value="女" checked>女
+        </div>
+        <div>最喜欢的演员：
+            <input type="checkbox" name="actor" value="zhang">张智尧    <!------多选框------>
+            <input type="checkbox" name="actor" value="ning">宁静
+            <input type="checkbox" name="actor" value="huang">黄维德
+        </div>
+        <div><!------大文本框------>
+            <textarea name="big_name">
+                        好好学习，天天向上
+            </textarea>
+        </div>
+        <input type="file" name="file">  <!------选择文件------>
+        <!------下拉选择，与选项option绑定------>
+        <div>柠檬班学生平均年龄
+            <select name = "avg_age">
+                <option>18</option>
+                <option>22</option>
+                <option>28</option>
+          </select>
+        </div>
+
+        <input type="submit">提交
+    </form>
+<!------script标签中间写js代码------>
+<script>
+    function run(a) {
+        if (a > 13) {
+            return a - 1;
+        }
+        else if (a == 13){
+            return a;
+        }else{
+            return a + 1;
+        }
+    }
+    console.log(run(12));
+
+    function blue(e){
+        e.style.color = "blue";
+    }
+    function red(e){
+        e.style.color = "red";
+    }
+    <!--加载时效果未出来-->
+    $(document).ready(function(){
+        alert("sunny!")
+    });
+</script>
+</body>
+</html>

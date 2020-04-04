@@ -1,0 +1,229 @@
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG    urllib3.connectionpool:connectionpool.py:221 Starting new HTTP connection (1): 127.0.0.1:61703
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session HTTP/1.1" 200 830
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/url {"url": "http://120.78.128.25:8765/Index/login.html", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/url HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/window/current/maximize {"windowHandle": "current", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/window/current/maximize HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "name", "value": "phone", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 104
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "name", "value": "password", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 104
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element/0.043973829713412016-1/value {"text": "18684720553", "value": ["1", "8", "6", "8", "4", "7", "2", "0", "5", "5", "3"], "id": "0.043973829713412016-1", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element/0.043973829713412016-1/value HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element/0.043973829713412016-2/value {"text": "python", "value": ["p", "y", "t", "h", "o", "n"], "id": "0.043973829713412016-2", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element/0.043973829713412016-2/value HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element/0.043973829713412016-1/submit {"id": "0.043973829713412016-1", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element/0.043973829713412016-1/submit HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//a[contains(@class,'btn-special')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 364
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//a[contains(@class,'btn-special')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 101
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element/0.648359019654269-1/displayed {"id": "0.648359019654269-1", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "GET /session/4941d53e779c45e7abf656c508f69c78/element/0.648359019654269-1/displayed HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element/0.648359019654269-1/click {"id": "0.648359019654269-1", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element/0.648359019654269-1/click HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//input[contains(@class,'invest-unit-investinput')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 102
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element/0.6699511221270309-1/displayed {"id": "0.6699511221270309-1", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "GET /session/4941d53e779c45e7abf656c508f69c78/element/0.6699511221270309-1/displayed HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element/0.6699511221270309-1/enabled {"id": "0.6699511221270309-1", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "GET /session/4941d53e779c45e7abf656c508f69c78/element/0.6699511221270309-1/enabled HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element/0.6699511221270309-1/value {"text": "100", "value": ["1", "0", "0"], "id": "0.6699511221270309-1", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element/0.6699511221270309-1/value HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//button[contains(@class,'height_style')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 102
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element/0.6699511221270309-2/displayed {"id": "0.6699511221270309-2", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "GET /session/4941d53e779c45e7abf656c508f69c78/element/0.6699511221270309-2/displayed HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element/0.6699511221270309-2/click {"id": "0.6699511221270309-2", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element/0.6699511221270309-2/click HTTP/1.1" 200 72
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 POST http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/element {"using": "xpath", "value": "//div[@class='layui-layer-content']//div[contains(@class, 'capital_font1')]", "sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "POST /session/4941d53e779c45e7abf656c508f69c78/element HTTP/1.1" 200 404
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:388 GET http://127.0.0.1:61703/session/4941d53e779c45e7abf656c508f69c78/screenshot {"sessionId": "4941d53e779c45e7abf656c508f69c78"}
+DEBUG    urllib3.connectionpool:connectionpool.py:428 http://127.0.0.1:61703 "GET /session/4941d53e779c45e7abf656c508f69c78/screenshot HTTP/1.1" 200 115542
+DEBUG    selenium.webdriver.remote.remote_connection:remote_connection.py:440 Finished Request
